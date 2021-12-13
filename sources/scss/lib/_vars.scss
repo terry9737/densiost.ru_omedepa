@@ -1,0 +1,23 @@
+// Colors
+
+$th_blk: #000000 !default;
+$th_wht: #ffffff !default;
+
+$th_prm_1: #103c54 !default;
+$th_scd_1: #bbdefb !default;
+
+$th_grd_1: linear-gradient(90deg, #95493b 0%, #a85140 100%) !default;
+$th_grd_2: linear-gradient(90deg, #98c21d 0%, #7cb342 100%) !default;
+$th_grd_3: linear-gradient(90deg, #263238 0%, #000000 100%) !default;
+$th_grd_4: linear-gradient(90deg, #f57c00 0%, #f9a825 100%) !default;
+
+// Media Query & Drid //
+$columns: 12 !default;
+$gutter: 20px !default;
+
+// ExtraSmallScreen                  <= 480px
+$SmallScreen: 480px !default; //     481px - 756px
+$TabletScreen: 756px !default; //    757px - 1000px
+$MediumScreen: 1000px !default; //   1001px - 1200px
+$LargeScreen: 1200px !default; //    >= 1201px
+$ExtraScreen: 1580px !default; //    >= 1201px
