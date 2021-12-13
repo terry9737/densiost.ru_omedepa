@@ -2164,7 +2164,7 @@ nav ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .section__about__text ul li:last-child {
   margin-bottom: 0;
@@ -2190,14 +2190,14 @@ nav ul {
 .section__about__text ul li h4 {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.33;
   margin: 0;
   margin-bottom: 20px;
   font-weight: bold;
 }
 .section__about__text ul li p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.66;
   margin: 0;
 }
@@ -2407,10 +2407,10 @@ nav ul {
   margin-bottom: 20px;
 }
 .section__takein h2 {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1;
-  font-weight: 300;
-  margin: 0 0 20px;
+  font-weight: 800;
+  margin: 10px 0px;
 }
 @media only screen and (max-width: 756px) {
   .section__takein h2 {
@@ -2433,9 +2433,9 @@ nav ul {
   line-height: 20px;
 }
 .section__takein p {
-  margin: 0 0 15px;
-  font-size: 18px;
-  line-height: 22px;
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: 300;
 }
 .section__takein p strong {
@@ -2456,7 +2456,7 @@ nav ul {
   font-size: 36px;
   line-height: 1;
   font-weight: 300;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 756px) {
@@ -2539,7 +2539,7 @@ nav ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 10px;
+  padding: 8px;
   text-decoration: none;
   color: #000000;
 }
@@ -2566,10 +2566,10 @@ nav ul {
   transform: rotate(180deg);
 }
 .section__questions .panel__body {
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 .section__questions .panel__body p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   font-weight: 300;
   margin: 0;
