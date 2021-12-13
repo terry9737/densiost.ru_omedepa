@@ -2117,7 +2117,7 @@ nav ul {
   }
 }
 .section__about {
-  background: #fff;
+  background: #214371;
   /* background: -webkit-gradient(
     linear,
     left top,
@@ -2221,7 +2221,7 @@ nav ul {
   height: 50vh;
 }
 .section__compound {
-  background: #000;
+  background: #fa7d2c;
   /* background: -webkit-gradient(
     linear,
     left top,
@@ -2769,14 +2769,10 @@ nav ul {
   top: -1em !important;
 }
 .text {
-  color: #214371;
+  color: #fff;
   padding: 10px;
 }
-.text h4 {
-  background: #fbba00;
-  padding: 0px 10px;
-  display: inline-block;
-}
+
 strong.grower {
   font-weight: 900 !important;
 }
