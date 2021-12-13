@@ -1968,9 +1968,7 @@ nav ul {
     height: 140px;
   }
 }
-.section__welcome .product__info {
-  padding-bottom: 20px;
-}
+
 /*.section__welcome .product__info ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2751,11 +2749,12 @@ nav ul {
   display: inline-block;
 }
 .recovery {
-  font-size: 1em !important;
+  font-size: 1.2em !important;
   margin: 50px 0px !important;
   color: #fbba00 !important;
   text-align: left;
-  max-width: 70%;
+  max-width: 100%;
+  text-align: center;
 }
 
 .recovery sup {
@@ -2771,6 +2770,7 @@ nav ul {
 }
 .text {
   color: #214371;
+  padding: 10px;
 }
 .text h4 {
   background: #fbba00;
@@ -2841,10 +2841,13 @@ strong.grower {
   align-items: center;
   justify-content: space-between;
 }
+
 @media only screen and (min-width: 640px) {
   .recovery {
-    font-size: 2.6em !important;
-    max-width: 92%;
+    font-size: 1.4em !important;
+    max-width: 100%;
+    text-align: center;
+    text-align: left;
   }
   .secondary_wrapper {
     display: flex;
@@ -2870,11 +2873,22 @@ strong.grower {
 
   .recovery {
     font-size: 1.8em !important;
-    max-width: 72%;
+    max-width: 52%;
   }
   .ingredients_wrapper {
     background: #fbba00;
     /* padding: 10px; */
-    max-width: 30% !important; /* on break[pojnt */
+    max-width: 40% !important; /* on break[pojnt */
+  }
+  .secondary_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .product__image {
+    margin-top: 100px !important;
   }
 }
