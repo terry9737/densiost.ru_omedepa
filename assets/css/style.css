@@ -162,6 +162,7 @@ template {
 @media only screen and (min-width: 1581px) {
   .ctn {
     width: 1560px;
+    padding-top: 30px;
   }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1580px) {
@@ -2179,7 +2180,7 @@ nav ul {
 .text_p_compound {
   font-size: 20px;
   padding: 15px;
-  font-weight: 800;
+  font-weight: normal;
 }
 @media only screen and (max-width: 756px) {
   .section__about__text ul li .icon {
@@ -2758,7 +2759,11 @@ nav ul {
   border-radius: 10px;
 }
 .top_trademark {
-  top: -1em !important;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
 }
 .text {
   color: #fff;
@@ -2877,6 +2882,6 @@ strong.grower {
 }
 @media only screen and (min-width: 1024px) {
   .product__image {
-    margin-top: 100px !important;
+    /* margin-top: 100px !important; */
   }
 }
