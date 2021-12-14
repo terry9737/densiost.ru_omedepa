@@ -1905,7 +1905,7 @@ nav ul {
   -o-object-fit: cover;
   object-fit: cover;
   z-index: 0;
-  object-position: 65%;
+  object-position: 65% 30%;
   opacity: 0.95;
 }
 .section__welcome__footer {
@@ -2741,7 +2741,7 @@ nav ul {
 }
 .third {
   background: #172e4a;
-  padding: 0px 16px;
+  padding: 0px 17px;
   margin-top: 2px;
   display: inline-block;
   /* margin-left: px; */
