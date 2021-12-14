@@ -1900,6 +1900,7 @@ nav ul {
   position: absolute;
   top: 0;
   left: 0;
+  /* left: 35%; */
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -2908,6 +2909,23 @@ strong.grower {
 @media only screen and (min-width: 1024px) {
   .first {
     margin-left: 50px;
+  }
+  .product__image {
+    margin-top: 280px !important;
+  }
+  .section__welcome__img {
+    display: block;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    left: 35%;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 0;
+    object-position: 65% 30%;
+    opacity: 0.95;
   }
 }
 @media only screen and (min-width: 1201px) {
